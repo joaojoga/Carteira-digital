@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    font-weight: bold;
+}
+
+tr {
+    transition: background-color 0.3s;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cinza claro */
+}
+
+tr:hover {
+    background-color: #d1e7dd; /* Verde claro */
+}
+
+td {
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px;
+}
+
+a img {
+    vertical-align: middle;
+}
+
+a:hover {
+    color: #0056b3; /* Azul escuro */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+p a:hover {
+    background-color: #0056b3; /* Azul escuro */
+}
