@@ -1,23 +1,29 @@
-# Carteira Digital
+Carteira Digital
 
-## Sobre o Projeto
+Sobre o Projeto
 
-A **Carteira Digital** é um sistema desenvolvido para um administrador controlar informações de usuários, permitindo visualizar dados como idade de aposentadoria, salário de aposentado, salário anual e salário pós-imposto. O objetivo é fornecer uma ferramenta de gestão financeira eficiente para acompanhamento de aposentadorias.
+A Carteira Digital é um sistema desenvolvido para um administrador controlar informações de usuários, permitindo visualizar dados como idade de aposentadoria, salário de aposentado, salário anual e salário pós-imposto. O objetivo é fornecer uma ferramenta de gestão financeira eficiente para acompanhamento de aposentadorias.
 
-## Tecnologias Utilizadas
+Para acessar o sistema, é necessário iniciar pela página de login do administrador. O sistema utiliza cookies para armazenar informações da sessão dos administradores, garantindo uma experiência mais fluida durante a navegação.
 
-- **Java 17**
-- **Maven**
-- **JPA/Hibernate**
-- **Servlets**
-- **Banco de Dados (MySQL)**
-- **HTML/CSS** (para a interface web)
+Tecnologias Utilizadas
 
-## Estrutura do Projeto
+Java 17
+
+Maven
+
+JPA/Hibernate
+
+Servlets
+
+Banco de Dados (MySQL)
+
+HTML/CSS (para a interface web)
+
+Estrutura do Projeto
 
 O projeto segue uma estrutura baseada em MVC:
 
-```
 TrabalhoLPB_3Parte2/
 │── src/main/java/
 │   ├── Controller/  # Controladores da aplicação
@@ -28,39 +34,40 @@ TrabalhoLPB_3Parte2/
 │   ├── index.html  # Página principal
 │   ├── CarteiraDigital.css  # Estilos da aplicação
 │── pom.xml  # Gerenciador de dependências Maven
-```
 
-## Como Rodar o Projeto
+Como Rodar o Projeto
 
-### Pré-requisitos
+Pré-requisitos
 
-- Ter o **Java 17** instalado
-- Ter o **Maven** configurado
-- Configurar o banco de dados no `persistence.xml`
+Ter o Java 17 instalado
 
-### Passos
+Ter o Maven configurado
 
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/Carteira-digital.git
-   ```
-2. Acesse a pasta do projeto:
-   ```sh
-   cd Carteira-digital/TrabalhoLPB_3Parte2
-   ```
-3. Compile e execute o projeto usando Maven:
-   ```sh
-   mvn clean package
-   ```
-4. Rode o servidor de aplicação (Tomcat, WildFly etc.) e acesse via navegador:
-   ```
-   http://localhost:8080/
-   ```
+Configurar o banco de dados no persistence.xml
 
-## Melhorias que podem ser adicionadas futuramente
+Passos
 
-- Implementação de autenticação mais robusta
-- Interface mais dinâmica
-- Suporte a mais tipos de transação
+Clone o repositório:
 
+git clone https://github.com/seu-usuario/Carteira-digital.git
+
+Acesse a pasta do projeto:
+
+cd Carteira-digital/TrabalhoLPB_3Parte2
+
+Compile e execute o projeto usando Maven:
+
+mvn clean package
+
+Rode o servidor de aplicação (Tomcat, WildFly etc.) e acesse via navegador:
+
+http://localhost:8080/
+
+Melhorias que podem ser adicionadas futuramente
+
+Implementação de autenticação mais robusta
+
+Interface mais dinâmica
+
+Suporte a mais tipos de transação
 
